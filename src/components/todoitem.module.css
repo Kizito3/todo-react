@@ -1,0 +1,44 @@
+.item {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .item {
+    width: 100%;
+  }
+}
+
+.itemname {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.todoflex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.deletebtn {
+  padding: 12px 15px;
+  border: none;
+  background-color: #f7ca;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.line {
+  border: 1px solid #f4f4f4;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-para {
+  text-align: center;
+}

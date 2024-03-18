@@ -28,7 +28,7 @@ function Todo() {
             fontSize: "30px",
           }}
         >
-          No todo found
+          No task found
         </p>
       ) : (
         <>
